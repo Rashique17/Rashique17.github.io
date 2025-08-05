@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashique Habib Chowdhury - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="background-animation" id="backgroundAnimation"></div>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">RHC</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="theme-toggle" onclick="toggleTheme()"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Rashique Habib Chowdhury</h1>
+            <p class="subtitle">Computer Science & Engineering Graduate</p>
+            <p>Motivated and enthusiastic programmer with a passion for lifelong learning, teamwork, and leadership. Ready to make an impact in the tech industry.</p>
+            <a href="#about" class="cta-button">Discover My Journey</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <p class="section-subtitle animate-on-scroll">Getting to know the person behind the code</p>
+            <div class="about-content animate-on-scroll">
+                <div class="profile-image">
+                    <img src="./Pictures/CV Image.jpg" alt="Rashique Habib Chowdhury">
+                </div>
+                <div class="about-text">
+                    <h3>BSc. in Computer Science & Engineering</h3>
+                    <p><a href="https://www.aiub.edu/" target="_blank" rel="noopener noreferrer" class="university-link"><strong>American International University-Bangladesh (AIUB)</strong></a></p>
+                    <p>I am a motivated student of Computer Science & Engineering at American International University-Bangladesh who is enthusiastic about lifelong learning and has programming skills. I appreciate working on worthwhile causes and do best in group settings. I enjoy cooperation and leadership. I speak many languages well, am flexible, and am keen to advance both professionally and personally.</p>
+                    <p>With a strong foundation in multiple programming languages and a passion for problem-solving, I'm ready to contribute to innovative projects and continue growing in the dynamic field of technology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Professional Experience</h2>
+            <p class="section-subtitle animate-on-scroll">My journey in the tech industry</p>
+            <div class="timeline">
+                <div class="timeline-item left animate-on-scroll">
+                    <div class="timeline-content">
+                        <h3>Web Developer Intern</h3>
+                        <h4>Ahsan Technologies Limited</h4>
+                        <span><i class="fas fa-calendar"></i> Feb 2025 – May 2025</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</span>
+                        <p>Gained hands-on experience in web development, working on real-world projects and learning industry best practices in a professional environment.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right animate-on-scroll">
+                    <div class="timeline-content">
+                        <h3>Campus Ambassador</h3>
+                        <h4>Interactive Cares</h4>
+                        <span><i class="fas fa-calendar"></i> Oct 2023 – Apr 2024</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</span>
+                        <p>Represented the company on campus, organized events, and facilitated connections between students and the tech industry while developing leadership and communication skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Skills & Expertise</h2>
+            <p class="section-subtitle animate-on-scroll">Technologies and tools I work with</p>
+            <div class="skills-grid">
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-item">
+                        <span>C++</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>C#</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>PHP</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-database"></i> Databases & Tools</h3>
+                    <div class="skill-item">
+                        <span>MySQL</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Oracle</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Git/GitHub</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Visual Studio</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>UML</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>MATLAB</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                </div>
+
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-lightbulb"></i> Soft Skills</h3>
+                    <div class="skill-item">
+                        <span>Problem-Solving</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Leadership</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Teamwork</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Networking</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Academic Projects</h2>
+            <p class="section-subtitle animate-on-scroll">Showcasing my development journey</p>
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll">
+                    <div class="project-header">
+                        <img src="./Pictures/Money transaction system.jpeg" class="card-img-top" alt="...">
+                        <h3>BlockPay Money Transaction System</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>A comprehensive software requirements specification (SRS) document for a blockchain-based money transaction system, designed with modern UML modeling techniques.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">UML</span>
+                            <span class="tech-tag">System Design</span>
+                            <span class="tech-tag">Documentation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-header">
+                        <img src="./Pictures/Books on books.jpeg" class="card-img-top" alt="...">
+                        <h3>Library Management System</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>A full-stack web application for managing library operations including book inventory, member management, and lending/returning processes.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-header">
+                        <img src="./Pictures/supermarket management system.jpeg" class="card-img-top" alt="...">
+                        <h3>Supermarket Management System</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>A desktop application built with C# for managing supermarket operations including inventory, sales, and customer management with intuitive user interface.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Windows Forms</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-header">
+                        <img src="./Pictures/traffic management system.jpeg" class="card-img-top" alt="...">
+                        <h3>Traffic Management Scenario</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>An interactive 3D graphics simulation of traffic management scenarios using OpenGL, demonstrating real-world traffic flow and control systems.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">OpenGL</span>
+                            <span class="tech-tag">GLUT</span>
+                            <span class="tech-tag">3D Graphics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-header">
+                        <img src="./Pictures/movie.jpeg" class="card-img-top" alt="...">
+                        <h3>Theatre Management Software </h3>
+                    </div>
+                    <div class="project-body">
+                        <p>A Movie Theatre Management Software, built with C#, is a seamless platform that lets users browse movies, view showtimes, book seats, and purchase tickets effortlessly—all in one place."</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll">
+                    <div class="project-header">
+                        <img src="./Pictures/CAD.png" class="card-img-top" alt="...">
+                        <h3>Residential & Commercial Designs</h3>
+                    </div>
+                    <div class="project-body">
+                        <p>Architectural drawings including Electrical Conduit layout diagrams based on civil planning with the help of AutoCAD software."</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">AutoCAD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Certifications</h2>
+            <p class="section-subtitle animate-on-scroll">Professional development and continuous learning</p>
+            <div class="skills-grid" style="margin-top: 2rem;">
+                <div class="skill-category animate-on-scroll">
+                    <img src="./Pictures/Analytics.png" class="card-img-top" alt="...">
+                    <h3><i class="fas fa-certificate"></i> Google Analytics</h3>
+                    <p><strong>Google Skillshop</strong></p>
+                    <p>Certified in Google Analytics, demonstrating proficiency in web analytics, data analysis, and digital marketing insights.</p>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <img src="./Pictures/Campaign Mngr .png" class="card-img-top" alt="...">
+                    <h3><i class="fas fa-ad"></i> Google Campaign Manager</h3>
+                    <p><strong>Google Skillshop</strong></p>
+                    <p>Certified in Google Campaign Manager, demonstrating expertise in digital advertising campaign management and optimization.</p>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <img src="./Pictures/AI powered.png" class="card-img-top" alt="...">
+                    <h3><i class="fas fa-robot"></i> AI Powered Performance Ads</h3>
+                    <p><strong>Google Skillshop</strong></p>
+                    <p>Certified in AI Powered Performance Ads, showcasing knowledge in leveraging artificial intelligence for optimizing digital advertising performance.</p>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <img src="./Pictures/cisco.png" class="card-img-top" alt="...">
+                    <h3><i class="fas fa-network-wired"></i> IT Essentials</h3>
+                    <p><strong>Cisco</strong></p>
+                    <p>Comprehensive certification covering computer hardware, software, networking, and troubleshooting fundamentals.</p>
+                </div>
+                <div class="skill-category animate-on-scroll">
+                    <img src="./Pictures/goethe.png" class="card-img-top" alt="...">
+                    <h3><i class="fas fa-language"></i> German Language A1</h3>
+                    <p><strong>Goethe Institute Bangladesh</strong></p>
+                    <p>Basic proficiency in German language, demonstrating commitment to multilingual communication and cultural awareness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Languages</h2>
+            <p class="section-subtitle animate-on-scroll">Multilingual communication skills</p>
+            <div class="skills-grid">
+                <div class="skill-category animate-on-scroll">
+                    <h3><i class="fas fa-globe"></i> Language Proficiency</h3>
+                    <div class="skill-item">
+                        <span>English</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 100%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Bengali</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 100%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>German</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Hindi</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 60%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Urdu</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 50%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <p class="section-subtitle animate-on-scroll">Let's connect and explore opportunities together</p>
+            <div class="contact-grid">
+                <div class="contact-item animate-on-scroll">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:rashiquech2000@gmail.com">rashiquech2000@gmail.com</a></p>
+                </div>
+
+                <div class="contact-item animate-on-scroll">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/rashique17" target="_blank">linkedin.com/in/rashique17</a></p>
+                </div>
+                <div class="contact-item animate-on-scroll">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/Rashique17" target="_blank">github.com/Rashique17</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PDF Export Button -->
+    <button class="pdf-button" onclick="exportToPDF()">
+        <i class="fas fa-download"></i> Export Resume
+    </button>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="mailto:rashiquech2000@gmail.com" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rashique17" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Rashique17" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.facebook.com/rashique17/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://x.com/Rashique360" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Rashique Habib Chowdhury. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
